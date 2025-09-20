@@ -9,8 +9,9 @@ void trocar(int *a, int *b) {
 
 int main() {
     int x, y;
-    if (scanf("%d %d", &x, &y) != 2) return 0;
+    if (scanf("%d %d", &x, &y) != 2) return 0; /* se for dois valores*/
     trocar(&x, &y);
     printf("%d %d\n", x, y);
     return 0;
 }
+
