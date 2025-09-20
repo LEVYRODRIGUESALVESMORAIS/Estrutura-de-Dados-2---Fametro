@@ -16,9 +16,8 @@ void inverterString(char *str) {
 }
 
 int main() {
-    char s[2048];
+    char s[100];
     if (fgets(s, sizeof(s), stdin) == NULL) return 0;
-    /* remover newline */
     size_t i = 0;
     while (s[i] != '\0') {
         if (s[i] == '\n') { s[i] = '\0'; break; }
@@ -28,3 +27,4 @@ int main() {
     printf("%s\n", s);
     return 0;
 }
+
