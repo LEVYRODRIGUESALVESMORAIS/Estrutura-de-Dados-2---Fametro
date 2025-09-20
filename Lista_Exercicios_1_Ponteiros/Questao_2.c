@@ -14,7 +14,7 @@ void encontrarMaiorMenor(int *array, int tamanho, int *maior, int *menor) {
 int main() {
     int n;
     printf("Digite o numero da lista:\n");
-    if (scanf("%d", &n) != 1 || n <= 0) return 0;
+    if (scanf("%d", &n) != 1 || n <= 0) return 0; /*Caso não seja apenas um numero ou seja 0*/
     printf("Digite a lista:\n");
     int arr[n];
     for (int i = 0; i < n; ++i) scanf("%d", &arr[i]);
@@ -22,4 +22,5 @@ int main() {
     encontrarMaiorMenor(arr, n, &maior, &menor);
     printf("Maior: %d\nMenor: %d\n", maior, menor);
     return 0;
+
 }
