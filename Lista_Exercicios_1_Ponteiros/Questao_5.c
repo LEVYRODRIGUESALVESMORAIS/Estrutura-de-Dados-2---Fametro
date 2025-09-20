@@ -11,8 +11,8 @@ void copiarString(char *origem, char *destino) {
 }
 
 int main() {
-    char origem[1024];
-    char destino[1024];
+    char origem[100];
+    char destino[100];
     if (fgets(origem, sizeof(origem), stdin) == NULL) return 0;
     size_t i = 0;
     while (origem[i] != '\0') {
@@ -23,3 +23,4 @@ int main() {
     printf("%s\n", destino);
     return 0;
 }
+
