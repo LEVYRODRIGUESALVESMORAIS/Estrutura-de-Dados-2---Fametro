@@ -1,5 +1,5 @@
 
-# Questão 1 (versão reescrita) - Lista de Estoque
+# Questão 1 - Lista de Estoque
 
 ## Como compilar
 ```
