@@ -24,7 +24,7 @@ int pop(Pilha *p) {
     return p->dados[p->topo--];
 }
 
-// --- Funções da Fila ---
+// --- FunÃ§Ãµes da Fila ---
 void criaFila(Fila *f) { f->inicio = 0; f->fim = 0; f->total = 0; }
 int filaVazia(Fila *f) { return f->total == 0; }
 int filaCheia(Fila *f) { return f->total == MAX; }
